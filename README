@@ -1,0 +1,19 @@
+*****************************************
+**		iTunes U RSS Feed Creator	   **
+*****************************************
+-By Victor Mota
+
+This small ruby script dives into your iTunes U file directory and creates a
+podcast/RSS feed out of the .M4V files there. It also moves the directory to
+a webserver. Currently I use OSX's built in Apache Web Server in the Web 
+Sharing service. However, you can modify this script to any desired web server
+and even make it work for non iTunes U type videos.
+
+TO MAKE IT WORK:
+It's easy, update the constants to your desired Path's!
+
+TO DO:
+-make the moving/renaming of files faster/smarter by checking what already exists
+-also make one RSS feed from all the other feeds so you don't have to add each one
+-create some sort of web interface to run this upon request
+	OR -create a scheduled task to run this and update the RSS feed/webserver
