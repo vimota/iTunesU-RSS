@@ -1,5 +1,5 @@
 *****************************************
-**		iTunes U RSS Feed Creator	   **
+**        iTunes U RSS Feed Creator    **
 *****************************************
 -By Victor Mota
 
@@ -10,10 +10,10 @@ Sharing service. However, you can modify this script to any desired web server
 and even make it work for non iTunes U type videos.
 
 TO MAKE IT WORK:
-It's easy, update the constants to your desired Path's!
+It's easy, update the constants to your desired paths!
 
 TO DO:
 -make the moving/renaming of files faster/smarter by checking what already exists
 -also make one RSS feed from all the other feeds so you don't have to add each one
 -create some sort of web interface to run this upon request
-	OR -create a scheduled task to run this and update the RSS feed/webserver
+    OR -create a scheduled task to run this and update the RSS feed/webserver
